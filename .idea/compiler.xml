@@ -20,7 +20,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="func-test" target="1.5" />
-      <module name="product" target="1.5" />
+      <module name="product" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
