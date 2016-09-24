@@ -19,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="func-test" target="1.5" />
       <module name="product" target="1.5" />
     </bytecodeTargetLevel>
   </component>
