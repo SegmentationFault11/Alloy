@@ -13,6 +13,6 @@ public class RestController {
 
     @RequestMapping({"/status", "/status/"})
     public ResponseEntity<String> getStatus() {
-        return new ResponseEntity<>("hey", HttpStatus.OK);
+        return new ResponseEntity<String>("hey", HttpStatus.OK);
     }
 }
