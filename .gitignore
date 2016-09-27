@@ -1,6 +1,4 @@
 .DS_Store
-.idea
-.gradle
-product/build/*
 src/
 build/
+classes/
