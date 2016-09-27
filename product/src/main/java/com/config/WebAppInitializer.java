@@ -12,10 +12,12 @@ import javax.servlet.ServletRegistration;
  * Created by stevenma on 9/24/16.
  */
 
-public class WebAppInitializer implements WebApplicationInitializer {
+public class WebAppInitializer implements WebApplicationInitializer
+{
 
     @Override
-    public void onStartup(ServletContext container) {
+    public void onStartup(ServletContext container)
+    {
         AnnotationConfigWebApplicationContext dispatcherContext = new AnnotationConfigWebApplicationContext();
         dispatcherContext.register(WebConfig.class);
 
