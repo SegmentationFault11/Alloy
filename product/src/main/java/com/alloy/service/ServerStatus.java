@@ -1,4 +1,4 @@
-package com.service;
+package com.alloy.service;
 
 import java.io.InputStream;
 import java.text.SimpleDateFormat;

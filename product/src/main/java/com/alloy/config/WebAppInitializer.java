@@ -1,5 +1,6 @@
-package com.config;
+package com.alloy.config;
 
+import com.alloy.config.ClassConfig.VigenereCipherConfig;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
@@ -19,7 +20,8 @@ public class WebAppInitializer implements WebApplicationInitializer
     public void onStartup(ServletContext container)
     {
         AnnotationConfigWebApplicationContext dispatcherContext = new AnnotationConfigWebApplicationContext();
-        dispatcherContext.register(WebConfig.class);
+        dispatcherContext.register(WebConfig.class,
+                VigenereCipherConfig.class);
 
         ServletRegistration.Dynamic dispatcher = container.addServlet("dispatcher", new DispatcherServlet(dispatcherContext));
         dispatcher.setLoadOnStartup(1);

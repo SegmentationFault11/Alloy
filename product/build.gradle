@@ -12,15 +12,19 @@ repositories {
 }
 
 dependencies {
-    compile 'org.springframework:spring-context:4.3.3.RELEASE'
-    compile 'org.springframework:spring-webmvc:4.1.6.RELEASE'
-    compile 'org.springframework:spring-web:3.2.2.RELEASE'
+    compile "org.springframework:spring-context:" + spring_rev
+    compile "org.springframework:spring-webmvc:" + spring_rev
+    compile "org.springframework:spring-web:" + spring_rev
+
     compile 'com.fasterxml.jackson.core:jackson-databind:2.0.1'
     compile 'com.fasterxml.jackson.core:jackson-core:2.8.3'
+
     compile 'javax.servlet:javax.servlet-api:3.0.1'
     compile 'javax.servlet:jstl:1.2'
+
+    compile 'org.webjars:jquery:3.1.1'
 }
 
 war {
-    archiveName 'Alloy.war'
+    archiveName 'alloy.war'
 }

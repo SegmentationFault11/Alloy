@@ -3,8 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Alloy</title>
+
+    <link rel="stylesheet" type="text/css" href="css/core.css">
+    <link rel="stylesheet" type="text/css" href="css/tabs.css">
+
+    <script src="webjars/jquery/3.1.1"></script>
 </head>
 <body>
-<p>Alloy</p>>
+    <ul class="tab">
+        <li><a href="#" class="tablinks" onclick="openTab(event, 'Home')">Home</a></li>
+        <li><a href="#" class="tablinks" onclick="openTab(event, 'About')">About</a></li>
+        <li><a href="#" class="tablinks" onclick="openTab(event, 'Dev')">Dev</a></li>
+    </ul>
+
+    <div id="Home" class="tabcontent">
+        <h3>Home</h3>
+    </div>
+
+    <div id="About" class="tabcontent">
+        <h3>About</h3>
+    </div>
+
+    <div id="Dev" class="tabcontent">
+        <h3>Dev</h3>
+    </div>
+
+    <script src="javascript/tabmanager.js"></script>
+    <script src="javascript/core.js"></script>
 </body>
 </html>

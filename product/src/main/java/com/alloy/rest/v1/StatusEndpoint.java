@@ -1,7 +1,7 @@
-package com.rest.v1;
+package com.alloy.rest.v1;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.service.ServerStatus;
+import com.alloy.service.ServerStatus;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

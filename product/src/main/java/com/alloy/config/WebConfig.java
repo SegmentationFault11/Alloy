@@ -1,7 +1,9 @@
-package com.config;
+package com.alloy.config;
 
 import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.DefaultServletHandlerConfigurer;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
@@ -12,10 +14,11 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @EnableWebMvc
 @Configurable
-@ComponentScan("com.rest.v1")
+@ComponentScan("com.alloy.v1")
 class WebConfig extends WebMvcConfigurerAdapter
 {
-    public InternalResourceViewResolver resolver()
+    @Bean
+    public InternalResourceViewResolver internalResourceViewResolver()
     {
         InternalResourceViewResolver internalResourceViewResolver = new InternalResourceViewResolver();
         internalResourceViewResolver.setPrefix("/");
