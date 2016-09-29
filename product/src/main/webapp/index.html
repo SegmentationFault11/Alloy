@@ -14,21 +14,21 @@
 </head>
 <body>
     <ul class="tab">
-        <li><a href="#" class="pagelinks" onclick="openPage(event, 'Home')">Home</a></li>
-        <li><a href="#" class="pagelinks" onclick="openPage(event, 'About')">About</a></li>
-        <li><a href="#" class="pagelinks" onclick="openPage(event, 'Dev')">Dev</a></li>
+        <li><div class="pagelinks" onclick='openPage(event, "home")'>Home</div></li>
+        <li><div class="pagelinks" onclick='openPage(event, "self")'>SelfPlug</div></li>
+        <li><div class="pagelinks" onclick='openPage(event, "utility")'>Utility</div></li>
+        <li><div class="pagelinks" onclick='openPage(event, "console")'>Console</div></li>
     </ul>
 
-    <div id="Home" class="pagecontent"></div>
+    <div id="home" class="pagecontent"></div>
 
-    <div id="SelfPlug" class="pagecontent"></div>
+    <div id="self" class="pagecontent"></div>
 
-    <div id="MiscUtility" class="pagecontent"></div>
+    <div id="utility" class="pagecontent"></div>
 
-    <div id="DevConsole" class="pagecontent"></div>
+    <div id="console" class="pagecontent"></div>
 
     <script src="javascript/pageManager.js"></script>
-    <script src="javascript/tabmanager.js"></script>
     <script src="javascript/core.js"></script>
 </body>
 </html>
