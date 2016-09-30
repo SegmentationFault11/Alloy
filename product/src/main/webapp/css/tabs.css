@@ -28,6 +28,9 @@ div.pagelinks:hover {background-color: #ddd;}
 /* Create an active/current tablink class */
 div.pagelinks:focus, .active {background-color: #ccc;}
 
+/* Create an active/current tablink class */
+div.pagelinks:active {background-color: #777;}
+
 /* Style the tab content */
 .tabcontent {
     display: none;
