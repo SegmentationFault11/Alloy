@@ -23,13 +23,32 @@ div.pagelinks {
 }
 
 /* Change background color of links on hover */
-div.pagelinks:hover {background-color: #ddd;}
+div.pagelinks:hover {
+    background-color: #ddd;
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+    transform:scale(1.05);
+}
 
 /* Create an active/current tablink class */
-div.pagelinks:focus, .active {background-color: #ccc;}
+div.pagelinks:active {
+    -webkit-transform:scale(.95); /* Safari and Chrome */
+    -moz-transform:scale(.95); /* Firefox */
+    -ms-transform:scale(.95); /* IE 9 */
+    -o-transform:scale(.95); /* Opera */
+    transform:scale(.95);
+    background-color: #777;
+}
 
 /* Create an active/current tablink class */
-div.pagelinks:active {background-color: #777;}
+div.pagelinks:focus, .active {
+    background-color: #ccc;
+
+}
+
+
 
 /* Style the tab content */
 .tabcontent {
@@ -40,8 +59,8 @@ div.pagelinks:active {background-color: #777;}
 }
 
 .tabcontent {
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    -webkit-animation: fadeEffect 0.1s;
+    animation: fadeEffect 0.1s; /* Fading effect takes 1 second */
 }
 
 @-webkit-keyframes fadeEffect {
@@ -52,4 +71,19 @@ div.pagelinks:active {background-color: #777;}
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+div.pagelinks:active {
+    -webkit-transition: all .1s ease; /* Safari and Chrome */
+    -moz-transition: all .1s ease; /* Firefox */
+    -ms-transition: all .1s ease; /* IE 9 */
+    -o-transition: all .1s ease; /* Opera */
+    transition: all .1s ease;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
 }
