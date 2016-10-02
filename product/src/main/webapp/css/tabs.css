@@ -34,18 +34,12 @@ div.pagelinks:hover {
 
 /* Create an active/current tablink class */
 div.pagelinks:active {
-    -webkit-transform:scale(.95); /* Safari and Chrome */
-    -moz-transform:scale(.95); /* Firefox */
-    -ms-transform:scale(.95); /* IE 9 */
-    -o-transform:scale(.95); /* Opera */
-    transform:scale(.95);
     background-color: #777;
 }
 
 /* Create an active/current tablink class */
 div.pagelinks:focus, .active {
-    background-color: #ccc;
-
+    background-color: #ccc;R
 }
 
 
