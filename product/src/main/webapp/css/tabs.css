@@ -39,7 +39,7 @@ div.pagelinks:active {
 
 /* Create an active/current tablink class */
 div.pagelinks:focus, .active {
-    background-color: #ccc;R
+    background-color: #ccc;
 }
 
 
@@ -54,7 +54,7 @@ div.pagelinks:focus, .active {
 
 .tabcontent {
     -webkit-animation: fadeEffect 0.1s;
-    animation: fadeEffect 0.1s; /* Fading effect takes 1 second */
+    animation: fadeEffect 0.1s;
 }
 
 @-webkit-keyframes fadeEffect {
