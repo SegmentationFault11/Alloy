@@ -9,7 +9,10 @@ ul.tab {
 }
 
 /* Float the list items side by side */
-ul.tab li {float: left;}
+ul.tab li .left{float: left;}
+
+/* Float the list items side by side */
+ul.tab li .right{float: right;}
 
 /* Style the links inside the list items */
 div.pagelinks {
@@ -33,16 +36,19 @@ div.pagelinks:hover {
 }
 
 /* Create an active/current tablink class */
-div.pagelinks:active {
-    background-color: #777;
-}
-
-/* Create an active/current tablink class */
 div.pagelinks:focus, .active {
     background-color: #ccc;
 }
 
-
+/* Create an active/current tablink class */
+div.pagelinks:active {
+    background-color: #777;
+    -webkit-transform:scale(1); /* Safari and Chrome */
+    -moz-transform:scale(1); /* Firefox */
+    -ms-transform:scale(1); /* IE 9 */
+    -o-transform:scale(1); /* Opera */
+    transform:scale(1);
+}
 
 /* Style the tab content */
 .tabcontent {

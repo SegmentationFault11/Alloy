@@ -14,10 +14,11 @@
 </head>
 <body>
     <ul class="tab">
-        <li><div class="pagelinks" onclick='openPage(event, "home")'>Home</div></li>
-        <li><div class="pagelinks" onclick='openPage(event, "self")'>SelfPlug</div></li>
-        <li><div class="pagelinks" onclick='openPage(event, "utility")'>Utility</div></li>
-        <li><div class="pagelinks" onclick='openPage(event, "console")'>Console</div></li>
+        <li><div class="pagelinks left" onclick='openPage(event, "home")'>Home</div></li>
+        <li><div class="pagelinks left" onclick='openPage(event, "self")'>SelfPlug</div></li>
+        <li><div class="pagelinks left" onclick='openPage(event, "utility")'>Utility</div></li>
+        <li><div class="pagelinks left" onclick='openPage(event, "chat")'>Chat</div></li>
+        <li><div class="pagelinks right" onclick='openPage(event, "console")'>Console</div></li>
     </ul>
 
     <div id="home" class="pagecontent"></div>
@@ -25,6 +26,8 @@
     <div id="self" class="pagecontent"></div>
 
     <div id="utility" class="pagecontent"></div>
+
+    <div id="chat" class="pagecontent"></div>
 
     <div id="console" class="pagecontent"></div>
 
