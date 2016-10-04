@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bb1efefe-aaf7-4c4d-be31-72ca48f15e69" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/main/java/com/alloy/service/VigenereCipher.java" afterPath="$PROJECT_DIR$/product/src/main/java/com/alloy/service/VigenereCipher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/product/src/main/webapp/css/tabs.css" afterPath="$PROJECT_DIR$/product/src/main/webapp/css/tabs.css" />
     </list>
     <ignored path="Alloy.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -123,8 +121,8 @@
       <file leaf-file-name="VigenereCipher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product/src/main/java/com/alloy/service/VigenereCipher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+            <state relative-caret-position="1665">
+              <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1902,12 +1900,12 @@
       <workItem from="1474855160814" duration="7314000" />
       <workItem from="1474987196481" duration="20867000" />
       <workItem from="1475180123501" duration="3681000" />
-      <workItem from="1475454373667" duration="3026000" />
+      <workItem from="1475454373667" duration="3326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43973000" />
+    <option name="totallyTimeSpent" value="44273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -2378,8 +2376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product/src/main/java/com/alloy/service/VigenereCipher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="139" column="23" selection-start-line="139" selection-start-column="23" selection-end-line="139" selection-end-column="23" />
+        <state relative-caret-position="1665">
+          <caret line="114" column="12" selection-start-line="114" selection-start-column="12" selection-end-line="114" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
