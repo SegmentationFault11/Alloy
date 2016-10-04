@@ -15,7 +15,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
  */
 @EnableWebMvc
 @Configurable
-@ComponentScan("com.alloy.v1")
+@ComponentScan("com.alloy.rest.v1")
 class WebConfig extends WebMvcConfigurerAdapter
 {
     @Bean
