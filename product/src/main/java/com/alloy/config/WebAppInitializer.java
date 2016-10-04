@@ -1,6 +1,6 @@
 package com.alloy.config;
 
-import com.alloy.config.ClassConfig.VigenereCipherConfig;
+import com.alloy.config.classconfig.VigenereCipherConfig;
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
