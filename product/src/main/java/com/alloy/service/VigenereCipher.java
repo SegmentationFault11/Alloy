@@ -116,7 +116,6 @@ public class VigenereCipher
         Integer length = 0;
 
         HashMap<Character, Integer> letterCount = new HashMap<>();
-        //ArrayList<Double> frequency = new ArrayList<>();
 
         for (int i = 0; i < 26; ++i)
         {
@@ -136,6 +135,16 @@ public class VigenereCipher
         }
 
         return variance*mu;
+    }
+
+    private Integer findKeyLength(String ciphertext)
+    {
+        return -1;
+    }
+
+    private String findKey(String ciphertext, Integer keyLength)
+    {
+        return "placeholder";
     }
 
 }
