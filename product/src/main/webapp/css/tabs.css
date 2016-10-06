@@ -59,8 +59,8 @@ div.pagelinks:active {
 }
 
 .tabcontent {
-    -webkit-animation: fadeEffect 0.1s;
-    animation: fadeEffect 0.1s;
+    /*-webkit-animation: fadeEffect 0.05s;*/
+    animation: fadeEffect 0.05s;
 }
 
 @-webkit-keyframes fadeEffect {
