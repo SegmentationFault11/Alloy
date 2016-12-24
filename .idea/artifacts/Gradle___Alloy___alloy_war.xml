@@ -13,20 +13,22 @@
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.3.RELEASE" />
-          <element id="library" level="project" name="Gradle: org.webjars:angularjs:1.5.8" />
-          <element id="library" level="project" name="Gradle: org.webjars:jquery:3.1.1" />
-          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
-          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.3" />
-          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.3" />
-          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.3.RELEASE" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.8.3" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.3" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Gradle: org.webjars:jquery:3.1.1" />
+          <element id="library" level="project" name="Gradle: org.webjars:angularjs:1.5.8" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.3.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.3.RELEASE/fba568b239ad7da9c264016e63a8c7e4b5604fda/spring-jdbc-4.3.3.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.3.RELEASE/15fe147d2725b9b85bfe79817dc10b4246d0364d/spring-tx-4.3.3.RELEASE.jar" />
         </element>
       </element>
       <element id="directory" name="META-INF">
