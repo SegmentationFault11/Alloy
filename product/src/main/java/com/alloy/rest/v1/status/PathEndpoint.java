@@ -21,19 +21,19 @@ public class PathEndpoint
     @RequestMapping(value = {"/user","/user/"}, method = RequestMethod.GET)
     public ResponseEntity<String> getUserPath() throws Exception
     {
-        return new ResponseEntity<String>(System.getProperty("user.dir"), HttpStatus.OK);
+        return new ResponseEntity<>(System.getProperty("user.dir"), HttpStatus.OK);
     }
 
     @RequestMapping(value = {"/catalinabase","/catalinabase/"}, method = RequestMethod.GET)
     public ResponseEntity<String> getCatalinaBase() throws Exception
     {
-        return new ResponseEntity<String>(System.getProperty("CATALINA_BASE"), HttpStatus.OK);
+        return new ResponseEntity<>(System.getProperty("CATALINA_BASE"), HttpStatus.OK);
     }
 
     @RequestMapping(value = {"/aux","/aux/"}, method = RequestMethod.GET)
     public ResponseEntity<String> getAuxPath() throws Exception
     {
-        return new ResponseEntity<String>(System.getenv("AUX"), HttpStatus.OK);
+        return new ResponseEntity<>(System.getenv("AUX"), HttpStatus.OK);
     }
 
 }
