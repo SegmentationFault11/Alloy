@@ -1,7 +1,10 @@
 .DS_Store
+.gradle/
 .idea/libraries/Gradle__org_springframework_spring_jdbc_4_3_3_RELEASE.xml
 .idea/libraries/Gradle__org_springframework_spring_tx_4_3_3_RELEASE.xml
 .idea/artifacts/
+.idea/workspace.xml
+product/build/
 build/
 classes/
 func-test/src/
